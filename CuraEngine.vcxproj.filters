@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CuraEngine-master\libs\clipper\clipper.cpp" />
+    <ClCompile Include="CuraEngine-master\src\bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\comb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\commandSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\FffGcodeWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\FffPolygonGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\gcodeExport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\gcodePlanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\infill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\inset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\layerPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\multiVolumes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\pathOrderOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\polygonOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\raft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\settingRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\skin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\skirt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\slicer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\timeEstimate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\Weaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\Wireframe2gcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cura.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\utils\gettime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\utils\logoutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\utils\polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\utils\polygonUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuraEngine-master\src\modelFile\modelFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD174061-D615-4522-87FA-4024CAD16EC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{141b9bae-08ad-4c18-85d9-a20e0d728e48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Debug\clipper.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CuraEngine-master\libs\clipper\clipper.hpp" />
+    <ClInclude Include="CuraEngine-master\src\utils\BucketGrid2D.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\floatpoint.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\gettime.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\intpoint.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\logoutput.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\polygon.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\polygondebug.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\polygonUtils.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\utils\string.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\modelFile\modelFile.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\bridge.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\comb.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\commandSocket.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\debug.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\FffGcodeWriter.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\FffPolygonGenerator.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\fffProcessor.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\gcodeExport.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\gcodePlanner.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\infill.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\inset.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\layerPart.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\mesh.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\multiVolumes.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\pathOrderOptimizer.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\polygonOptimizer.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\raft.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\settingRegistry.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\settings.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\skin.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\skirt.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\sliceDataStorage.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\slicer.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\support.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\timeEstimate.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\weaveDataStorage.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\Weaver.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuraEngine-master\src\Wireframe2gcode.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
