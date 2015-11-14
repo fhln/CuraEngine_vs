@@ -1,7 +1,7 @@
 * CuraEngine_vs
 ** 3d切片引擎CuraEngine的windows版本
-    + 不再更新，最新版本master分支转移至https://github.com/fhln/CuraEngine_VS_new
-
+    + -不再更新，最新版本master分支转移至https://github.com/fhln/CuraEngine_VS_new-
+    + 新版本vs项目运行时有问题，群里有能运行版本。
 【blog】 https://fhln.blog.ustc.edu.cn/ 有简单介绍
 
 CuraEngine交流QQ群：187233472
